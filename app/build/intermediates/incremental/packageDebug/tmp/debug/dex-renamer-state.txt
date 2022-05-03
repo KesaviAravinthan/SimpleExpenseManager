@@ -1,0 +1,4 @@
+#Tue May 03 10:52:29 IST 2022
+base.0=D\:\\Semi 4\\4. Kesavi Fourth Semiii\\Database System\\LAB\\Embedded Databse\\SimpleExpenseManager\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
