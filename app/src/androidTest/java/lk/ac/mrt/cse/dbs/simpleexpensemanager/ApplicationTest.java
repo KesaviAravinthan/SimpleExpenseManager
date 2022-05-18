@@ -58,8 +58,8 @@ public class ApplicationTest {
 
     @Test
     public void testAddAccount(){
-        testExpenceManager.addAccount("404a", "Bank X", "peter parker", 1000.0);
-        assertTrue(testExpenceManager.getAccountNumbersList().contains("404a"));
+        testExpenceManager.addAccount("190049P", "BOC", "Kesavi", 5000.0);
+        assertTrue(testExpenceManager.getAccountNumbersList().contains("190049P"));
     }
 
 
@@ -67,7 +67,7 @@ public class ApplicationTest {
     public void testAddExpence(){
         try{
             int sizeOfLogsArr = testExpenceManager.getTransactionLogs().size();
-            testExpenceManager.updateAccountBalance("12349A",10, 5, 2022, ExpenseType.EXPENSE, "500");
+            testExpenceManager.updateAccountBalance("12349A",18, 5, 2022, ExpenseType.EXPENSE, "100");
             assertEquals(testExpenceManager.getTransactionLogs().size() , sizeOfLogsArr + 1);
         }catch (InvalidAccountException | ParseException e){
 
